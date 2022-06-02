@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pseudo-elements</title>
+        <style>
+            a:link{text-decoration:none; color:darkgreen; font-weight:bold;}
+            a:visited{color : red}
+            a:active{color:blue}
+            a:hover{color : orange;} /* hover와 active는 겹치지 않는구나*/
+            p::first-line{
+                color : #ff0000; font-variant : small-caps;}
+            p::first-letter {
+                color : #800000; font: bold xx-large times;}
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li><a href=https://www.gachon.ac.kr/kor/index.do target="blank">Gachon University</a></li>
+            <li><a href="https://www.google.com/" target="blank">Google</a></li>
+        </ol>
+        <p>There's a time that I remember, when I did not know no pain <br>
+            When I believed in forever, and everything would stay the same<br>
+            Now my heart feel like December when somebody say your name<br>
+            'Cause I can't reach out to call you, but I know I will one day, yeah</p>
+    </body>
+</html>
